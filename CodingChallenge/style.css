@@ -1,0 +1,91 @@
+.container {
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.logo {
+    margin-top: 50px;
+    width: 180px; 
+    height: auto; 
+}
+
+.logo_text {
+    margin-top: 10px;
+    font-size: 24px;
+    color: #00dd00;
+    margin-bottom: 0;
+}
+
+.button-container {
+    text-align: center;
+    background-color: #00dd00; 
+    padding: 10px; 
+    width: 600px;
+    margin : 0 auto;
+}
+
+.scooter-list {
+    color: white;
+    margin-left: 290px;
+    list-style-type: square;
+}
+
+.scooter-list h2 {
+    margin: 0; 
+}
+
+.indirizzo::before {
+    content: "\2192"; 
+    margin-right: 5px;
+}
+
+.charge-indicator-1 {
+    width: 300px; 
+    height: 20px; 
+    background-color: orange; 
+    border-radius: 5px;
+    margin-bottom: 25px;
+}
+
+.charge-indicator-2 {
+    width: 450px; 
+    height: 20px; 
+    background-color: #00dd00; 
+    border-radius: 5px;
+    margin-bottom: 25px;
+}
+
+.charge-indicator-3 {
+    width: 100px; 
+    height: 20px; 
+    background-color: red; 
+    border-radius: 5px;
+    margin-bottom: 25px;
+}
+
+
+body {
+    background-image: url(background.jpg);
+    background-size: cover;
+}
+
+
+.overlay {
+    position: absolute;
+    top: 60%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    width: 800px; 
+    height: 600px; 
+    background-color: rgba(0, 0, 0, 0.5); 
+    z-index: -1;
+    border-radius: 20px;
+}
+
+
+
+
+
+
